@@ -1,0 +1,46 @@
+<html>    
+<head>  
+<style>
+body {
+  background-image: url('alogin.jpg');
+}
+</style>
+    <title>UPDATE PAGE</title>    
+    <link rel="stylesheet" type="text/css" href="alogin.css">    
+</head>    
+<body> 
+
+<form action="Hostel" method="POST">  
+    <h1>UPDATE  ROOM</h1>
+<ul>
+<li><a href="Welcome.html">Home</a></li>
+<li><a href="alogin.html">Admin Login</a></li>
+</ul>
+<br><br>    
+    <div class="login">    
+   
+        <label><b>ROOM ID</b></label><br>   
+        <input type="text" name="RI" id="RI" placeholder="ROOM ID" required>    
+        <br> <br> 
+        <label><b>ROOM TYPE</b></label><br>      
+<select id="select" name="RT">
+	
+	<option>Single</option> 
+	<option>Double</option>
+	<option>Single AC</option>
+	<option>Double AC</option>
+	</select>
+        <br><br>
+        <label><b>ROOM LOCATION</b></label><br>    
+        <input type="text" name="RL" id="RL" placeholder="ROOM LOCATION" required>    
+        <br><br>
+<label><b>ROOM CHARGES</b></label><br>    
+        <input type="text" name="RC" id="RC" placeholder="ROOM CHARGES" required>    
+        <br><br>
+   
+        <input type="submit" name="submit" id="log" value="UPDATE">       
+        <br>
+    </form>     
+</div>    
+</body>    
+</html>    

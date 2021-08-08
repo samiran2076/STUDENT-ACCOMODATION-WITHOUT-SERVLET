@@ -1,0 +1,169 @@
+body  
+{  
+    margin: 0;  
+    padding: 0;  
+    /*background-color:#fc0373;  */
+    font-family: 'Arial'; 
+}
+h3{
+    border-style:solid; 
+    
+}
+
+img {
+opacity: 1.0;
+margin-top:5px;
+}
+
+h1{ 
+border-style: solid;
+border-radius: 13px;
+width: 40%;
+margin-left: 500px;
+margin-top:20px;
+background-color:skyblue;
+color:black;
+opacity:0.7; 
+padding-left: 50px;    
+
+}  
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color:#2bbded;
+   opacity: 0.7;
+  font-weight: bold;
+}
+
+li {
+  border-right: 1px solid #bbb;
+}
+
+li a {
+ border-right: 1px solid #bbb;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+ font-size: 20px;
+  text-decoration: underline;
+}
+
+li a:hover {
+  background-color: white;
+ color: black;
+}
+
+label{  
+    color: #00accf;  
+    font-size: 20px;  
+}  
+#Uname{  
+    width: 400px;  
+    height: 40px;  
+    border: none;  
+    border-radius: 3px;  
+    padding-left: 8px;  
+}  
+#Pass{  
+    width: 400px;  
+    height: 40px;  
+    border: none;  
+    border-radius: 3px;  
+    padding-left: 8px;  
+      
+}  
+#log{  
+    width: 200px;  
+    height: 30px;  
+    border: none;  
+    border-radius: 17px;  
+    padding-left: 7px;  
+    background: #00accf;
+    color:white;  
+  
+  
+}  
+span{  
+    color: darkblue;  
+    font-size: 17px;  
+}  
+table{
+	margin-left: 350px;
+	margin-top: 120px;
+	border-collapse: collapse;
+  	width: 50%;
+	text-align: left;
+opacity:0.88;
+}
+
+table a{
+	background-color: white; 
+}
+
+th {
+  background-color:#001329; 
+  color: white;
+	border-bottom:3px solid #001329;
+padding: 8px;
+}
+
+td {
+background-color:white;
+color: black;
+padding: 8px;
+border-bottom:3px solid #001329;
+}
+
+
+
+a{  
+    float: right;  
+    background-color:#2bbded;  
+}
+
+#alog{  
+    width: 200px;  
+    height: 30px;  
+    border: none;  
+    border-radius: 17px;  
+    padding-left: 7px;  
+    background: #fa5a5a;
+    color:white;  
+  
+}  
+
+input[type=text], select, textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */ 
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
